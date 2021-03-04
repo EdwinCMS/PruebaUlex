@@ -1,0 +1,73 @@
+
+
+
+#card {
+  margin: 18px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 2px rgb(209, 209, 209);
+}
+#card-footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+#btn-compra {
+  height: 32px;
+  width: 70px;
+  border-radius: 4px;
+  background-color: rgb(129, 129, 255);
+  color: #ffffff;
+  border: 1px solid white;      
+}
+h6 {
+  font-weight: 500;
+}
+span {
+  color: rgb(0, 97, 97);
+  font-weight: 700;
+}
+#img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+#card2 {
+  margin: 18px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 2px rgb(235, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer2 {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 20px 20px;
+}#card-body2{
+  padding: 20px 20px;
+}
+#btn-compra2 {
+  height: 32px;
+  width: 70px;
+  border-radius: 4px;
+  background-color: rgb(129, 129, 255);
+  color: #ffffff;
+  border: 1px solid white;
+}
+h6 {
+  font-weight: 500;
+}
+span {
+  color: rgb(0, 97, 97);
+  font-weight: 700;
+}
+#img2 {
+  width: 80px;
+}

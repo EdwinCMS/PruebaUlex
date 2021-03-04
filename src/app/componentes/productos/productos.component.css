@@ -1,0 +1,16 @@
+#seccion-pro {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffffde;
+}
+#cont {
+  width: 100%;
+  margin: 15px;
+}
+h2 {
+  color: #007be0;
+  font-weight: 400;
+  border-bottom: 1px solid #00000062;
+  font-size: 1.1em;
+  padding: 5px 5px;
+}

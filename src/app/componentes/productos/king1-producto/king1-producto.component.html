@@ -1,0 +1,18 @@
+
+    <div
+      id="card"
+      *ngIf="cat_p.category_id == 801 && producto.product_data.kind == 1"
+    >
+      <div class="" id="card-body">
+        <img src="../../../assets/img/masc.jpg" alt="" id="img" />
+      </div>
+      <div class="card-footer">
+        <h6>{{ producto.product_data.name }}</h6>
+        <span>${{ producto.product_data.price }}</span>
+      </div>
+      <div class="card-footer">
+        <button type="button" id="btn-compra">Comprar</button>
+      </div>
+    </div>
+
+

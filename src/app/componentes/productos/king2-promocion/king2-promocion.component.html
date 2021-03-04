@@ -1,0 +1,38 @@
+<!--Card Promocion-->
+<div class="" *ngFor="let producto of productos">
+  <div class="" *ngFor="let cat_p of producto.product_data.categories">
+    <div
+      id="card"
+      *ngIf="cat_p.category_id == 801 && producto.product_data.kind == 2"
+    >
+      <div class="" id="card-body">
+        <img src="../../../assets/img/masc.jpg" alt="" id="img" />
+      </div>
+      <div class="" id="card-footer">
+        <div>
+          <h6>{{ producto.product_data.name }}</h6>
+          <span>${{ producto.product_data.price }}</span>
+        </div>
+        <button type="button" id="btn-compra">Comprar</button>
+      </div>
+    </div>
+<!--Card Producto-->
+    <div
+      id="card2"
+      *ngIf="cat_p.category_id == 801 && producto.product_data.kind == 1"
+    >
+      <div class="" id="card-body2">
+        <img src="../../../assets/img/masc.jpg" alt="" id="img2" />
+      </div>
+      <div class="card-footer2">
+        <h6>{{ producto.product_data.name }}</h6>
+        <span>${{ producto.product_data.price }}</span>
+      </div>
+      <div class="card-footer2">
+        <button type="button" id="btn-compra2">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
